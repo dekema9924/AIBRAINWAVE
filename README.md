@@ -5,11 +5,11 @@
 Introducing BrainGPT, a fully-featured AI landing page.
 
 ## 🚀 Live Demo
-[🔗 View Live Demo](https://brainw0ve.netlify.app/)  
+[🔗 View Live Demo](https://br0inwave.netlify.app/)  
 
 ## 📌 Features
 - ✅ Responsive  
-- ✅ Smooth Aniamtion  
+- ✅ Smooth Scroll
 - ✅ Stunning Design
 
 ## 🛠️ Tech Stack  
