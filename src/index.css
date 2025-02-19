@@ -56,11 +56,12 @@
 
 
 @layer utilities {
+  
   .border_lineargradient {
     background: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
     animation: button_gradient 2s linear infinite;
     background-size: 200%;
-    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    /* border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1; */
     padding: 2px;
     width: fit-content;
 
@@ -98,7 +99,7 @@
     padding-right: 10px;
     cursor: pointer;
     background: linear-gradient(to right, #3acfd5 10%, rgb(145, 60, 182) 10%, #d23ad5 100%) 1;
-    clip-path: polygon(0 1%, 80% 0%, 100% 20%, 100% 80%, 100% 99%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(0 1%, 90% 0%, 100% 20%, 100% 80%, 100% 99%, 20% 100%, 0 100%, 0% 20%);
 
   }
 

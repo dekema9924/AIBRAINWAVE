@@ -48,7 +48,7 @@ function Header() {
           </div>
         </div>
         <div className='border_lineargradient w-14 h-13 rounded-md rounded-tr-[24px] cursor-pointer mr-4 flex lg:hidden flex-col items-center justify-center'>
-            <div  onClick={()=>setIsClicked(!isClicked)} className='bg-[rgba(14,12,21)] w-11/12 h-11/12 flex flex-col items-center justify-center'>
+            <div  onClick={()=>setIsClicked(!isClicked)} className='bg-[rgba(14,12,21)] w-12 h-11/12 flex flex-col items-center justify-center'>
               <span className={isClicked ? "w-7 h-2 border-t-2 block rotate-40 translate-[5px] translate-x-[-1px] transition-all duration-700" : 'w-7 h-2 border-t-2 block transition-all duration-700'}></span>
               <span className={isClicked ? "w-7 h-2 border-t-2 block -rotate-40 translate-[-2px] translate-x-[3px] transition-all duration-700" : 'w-7 h-2 border-t-2 block transition-all duration-700'}></span>
             </div>
