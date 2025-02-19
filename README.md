@@ -37,11 +37,11 @@ Introducing BrainGPT, a fully-featured AI landing page.
 
 ## 🏗️ Project Structure
 /src
- ├── components/        # Reusable components
- ├── pages/             # Page components
- ├── assets/            # Static assets (images, fonts)
- ├── App.tsx            # Main component
- ├── main.tsx           # Entry point
- └── vite.config.ts     # Vite configuratio
+ ├── components/   # Reusable components
+ ├── pages/        # Page components
+ ├── assets/        # Static assets (images, fonts)
+ ├── App.tsx        # Main component
+ ├── main.tsx        # Entry point
+ └── vite.config.ts  # Vite configuratio
 
 
