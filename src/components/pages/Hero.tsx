@@ -1,5 +1,4 @@
 import curve from '../../assets/hero/curve.png'
-import Button from '../Button'
 import robot from '../../assets/hero/robot.jpg'
 import herobg from '../../assets/hero/hero-background.jpg'
 import squarePlus from '../../assets/plus-square.svg'
