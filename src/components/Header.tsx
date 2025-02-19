@@ -41,10 +41,10 @@ function Header() {
         </ul>
        
     
-        <div className='mr-5 items-center gap-4 hidden lg:flex '>
-          <li className='text-xs font-semibold text-gray-400 hover:text-white'>NEW ACCOUNT</li>
-          <div className='border_lineargradient w-34 h-10  border-2 button_curve '>
-            <Button styles=' bg-[rgba(14,12,21)] w-[129px] h-[32px] text-xs ' text='SIGN IN'/>
+        <div className='mr-5 items-center hidden w-66 lg:flex '>
+          <li className='text-xs w-11/12 font-semibold text-gray-400 hover:text-white'>NEW ACCOUNT</li>
+          <div className=' w-full   '>
+            <Button  text='SIGN IN'/>
           </div>
         </div>
         <div className='border-2 w-14 h-13 rounded-md rounded-tr-[24px] cursor-pointer mr-4 flex lg:hidden flex-col items-center justify-center'>

@@ -41,7 +41,7 @@ function Collaboration() {
                 <p>Top-notch Security</p>
               </div>
               <div className='w-34 h-10 my-10  '>
-                <Button styles='  w-[129px] h-[32px] text-xs ' text='TRY IT NOW' />
+                <Button  text='TRY IT NOW' />
               </div>
             </div>
           </div>

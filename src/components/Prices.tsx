@@ -24,7 +24,7 @@ function Prices(props: PricesProps) {
 
                 <p className='text-[3em] flex items-center my-4'><span className='font-bold  text-[1.6em]'>{props.price}</span></p>
                <div>
-                    <Button styles={` text-xs cursor-pointer font-bold text-black w-full h-13 uppercase bg-[rgba(14,12,21)]  h-[33px] text-xs text-white `} text={props.button} />
+                    <Button text={props.button} />
                </div>
 
                 <ul className='mt-10'>
