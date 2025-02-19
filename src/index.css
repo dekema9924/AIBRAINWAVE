@@ -114,11 +114,6 @@
   }
 
 
-
-}
-
-
-
 @keyframes box {
   50% {
     transform: translateY(-180px);
@@ -135,3 +130,9 @@
       background-position: 200%;
     }
 }
+
+
+
+}
+
+
