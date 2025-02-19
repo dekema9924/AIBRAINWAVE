@@ -38,7 +38,7 @@ function Hero() {
                             <div className='  bg-gray-700 '>
                                 <div className='h-[1.9rem] '></div>
                             </div>
-                            <div className='overflow-hidden relative w-full max-w-[1600px] h-[600px] flex flex-col items-center '>
+                            <div className='overflow-hidden relative h-[600px] flex flex-col items-center '>
                                 <img className='object-cover rounded-lg scale-140 ' src={robot} alt="robot_img" />
                                 <div className='flex gap-4 justify-center items-center absolute top-[500px] max-w-[400px]  z-50 w-11/12 h-14 before:content-[""] before:absolute before:w-full before:h-full before:bg-gray-900 before:-z-1 before:opacity-60 before:rounded-4xl'>
                                     <img className='w-10' src={loading} alt="" />

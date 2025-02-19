@@ -62,6 +62,7 @@
     background-size: 200%;
     border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
     padding: 2px;
+    width: fit-content;
 
   }
 
