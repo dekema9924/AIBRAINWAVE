@@ -40,8 +40,8 @@ function Collaboration() {
                 <img src={check_img} alt="check_img" />
                 <p>Top-notch Security</p>
               </div>
-              <div className='w-34 h-10  border-2 my-10  '>
-                <Button styles=' bg-[rgba(14,12,21)] w-[129px] h-[32px] text-xs ' text='TRY IT NOW' />
+              <div className='w-34 h-10 my-10  '>
+                <Button styles='  w-[129px] h-[32px] text-xs ' text='TRY IT NOW' />
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ function Collaboration() {
           <img className='size-80 hidden lg:block lg:mt-80' src={curve} alt="" />
 
 
-          {/*  second div eith circle*/}
+          {/*  second div with circle*/}
           <div className='flex flex-col  lg:mt-24'>
             <p className='lg:w-96 p-4 lg:my-4 text-purple-200  opacity-[.7]'>With smart automation and top-notch security, it's the perfect solution for teams looking to work smarte</p>
             <div className="w-[400px] my-10 relative h-[400px] border-2 border-gray-700  m-auto lg:m-0 rounded-full flex items-center justify-center">

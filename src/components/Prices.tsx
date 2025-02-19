@@ -11,7 +11,6 @@ interface PricesProps {
     list_2: string
     list_3: string
     button: string
-    buttonclass: string
 
 }
 
@@ -24,7 +23,7 @@ function Prices(props: PricesProps) {
                 <p className='text-gray-400 text-lg w-fit'>{props.text}</p>
 
                 <p className='text-[3em] flex items-center my-4'><span className='font-bold  text-[1.6em]'>{props.price}</span></p>
-               <div className={props.buttonclass}>
+               <div>
                     <Button styles={` text-xs cursor-pointer font-bold text-black w-full h-13 uppercase bg-[rgba(14,12,21)]  h-[33px] text-xs text-white `} text={props.button} />
                </div>
 

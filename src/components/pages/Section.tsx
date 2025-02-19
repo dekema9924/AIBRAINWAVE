@@ -6,7 +6,6 @@ import plug4 from '../../assets/benefits/icon-4.svg'
 import Collaboration from './Collaboration'
 
 
-
 function Section() {
     return (
         <>
@@ -63,9 +62,6 @@ function Section() {
                             />
                         </div>
                     </div>
-
-
-
                 </div>
 
             </div>

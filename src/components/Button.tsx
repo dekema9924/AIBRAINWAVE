@@ -7,8 +7,7 @@ interface Props {
 function Button(props: Props) {
   return (
     <>
-        <button className={`button_curve  ${props.styles}`}>{props.text}</button>
-        
+        <button className=' bg-white text-black w-full h-13'>{props.text}</button>
     </>
   )
 }

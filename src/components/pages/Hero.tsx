@@ -31,7 +31,7 @@ function Hero() {
                                 Explore the Possibilities of AI Chatting with <span className=' relative'>Brainwave <img className='w-80 absolute left-0' src={curve} alt="curve_img" /></span>
                             </h1>
                             <p className='text-blue-100 opacity-80 md:text-2xl m-auto max-w-[700px] text-center my-10 w-11/12'>Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.</p>
-                            <Button styles='bg-white text-black w-42 h-13' text='Get Started' />
+                            <button className='button_curve bg-white text-black w-42 h-13'>Get Started</button>
 
                         </div>
                         <div className='border_lineargradient  mt-15  relative rounded-lg '>

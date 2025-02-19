@@ -30,7 +30,6 @@ function Pricing() {
                     list_1='AI chatbot, personalized recommendations'
                     list_2='Personalized recommendations based on your preferences'
                     list_3='Ability to explore the app and its features without any cost'
-                    buttonclass='border-2 '
                 />
                 <Prices
                     title='Premium'
@@ -41,7 +40,6 @@ function Pricing() {
                     list_1='An advanced AI chatbot that can understand complex queries'
                     list_2='An analytics dashboard to track your conversations'
                     list_3='Priority support to solve issues quickly'
-                    buttonclass='border-2'
                 />
                 <Prices
                     title='Enterprise'
@@ -52,7 +50,6 @@ function Pricing() {
                     list_1='An advanced AI chatbot that can understand complex queries'
                     list_2='Personalized recommendations based on your preferences'
                     list_3='Ability to explore the app and its features without any cost'
-                    buttonclass=' border-2   '
                 />
             </div>
             <p className='text-xs underline font-bold my-14 text-center cursor-pointer'>SEE THE FULL DETAILS</p>
