@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionProps from '../SectionProps'
 import plug1 from '../../assets/benefits/icon-1.svg'
 import plug2 from '../../assets/benefits/icon-2.svg'
