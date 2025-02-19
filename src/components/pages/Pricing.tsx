@@ -13,7 +13,7 @@ function Pricing() {
                 </div>
                 <div className='flex flex-col lg:my-14 items-center '>
                     <div className='flex gap-4 h-10  items-center'>
-                        <span className='button_curve  border-2 border-r-0 h-full p-2 rounded-md'></span>
+                        <span className='border-2 border-r-0 h-full p-2 rounded-md'></span>
                         <p className='text-xs text-purple-100 opacity-55'>GET STARTED WITH BRAINWAVE</p>
                         <span className='.button_curve border-2 border-r-0 h-full p-2 rounded-md rotate-180'></span>
                     </div>

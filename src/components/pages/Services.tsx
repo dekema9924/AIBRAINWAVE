@@ -71,7 +71,7 @@ function Service() {
                             </div>
                             <div className='absolute bottom-2 flex items-center gap-1'>
                                 <img src={play} alt="" />
-                                <span className='w-[300px]  rounded-md relative border-[1px] block before:content-[""] before:absolute  before:h-1 before:w-56  before:bg-purple-500 before:-bottom-[1px]'> </span>
+                                <span className='w-[300px] rounded-md relative border-[1px] block before:content-[""] before:absolute  before:h-1 before:w-56  before:bg-purple-500 before:-bottom-[1px]'> </span>
                             </div>
                         </div>
                     </div>

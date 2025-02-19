@@ -16,7 +16,7 @@
 
 }
 
-
+@layer base {
   li {
     font-family: var(--font-code);
     cursor: pointer;
@@ -50,6 +50,12 @@
   }
 
 
+}
+
+
+
+
+@layer utilities {
   .border_lineargradient {
     background: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
     animation: button_gradient 2s linear infinite;
@@ -106,6 +112,10 @@
     transition: all .5s;
     transform: scaleX(-1);
   }
+
+
+
+}
 
 
 
