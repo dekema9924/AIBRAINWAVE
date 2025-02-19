@@ -40,7 +40,7 @@ function Collaboration() {
                 <img src={check_img} alt="check_img" />
                 <p>Top-notch Security</p>
               </div>
-              <div className='border_lineargradient w-34 h-10  border-2 button_curve my-10  '>
+              <div className='w-34 h-10  border-2 my-10  '>
                 <Button styles=' bg-[rgba(14,12,21)] w-[129px] h-[32px] text-xs ' text='TRY IT NOW' />
               </div>
             </div>
@@ -73,9 +73,9 @@ function Collaboration() {
               </ul>
 
               <div className="border-2 border-gray-700 w-66 h-66 rounded-full flex items-center justify-center">
-                <div className="border_lineargradient w-24 h-24 rounded-full">
+                <div className="border-2 h-24 w-24  border-gray-700 rounded-full">
                   <div className="bg-[rgba(14,12,21)] w-full h-full rounded-full flex items-center justify-center">
-                    <img src={logo} alt="logo" />
+                    <img className='' src={logo} alt="logo" />
                   </div>
                 </div>
               </div>

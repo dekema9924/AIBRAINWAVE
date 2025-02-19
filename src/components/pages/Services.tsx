@@ -62,7 +62,7 @@ function Service() {
                             <div className='flex items-center justify-around '>
                                 <img className='size-14 border-2 rounded-full border-gray-700 p-2' src={recording_1} alt="" />
                                 <img className='size-14 border-2 rounded-full border-gray-700 p-2'  src={recording_3} alt="" />
-                                <img className=' border_lineargradient size-10 rounded-full border-gray-700 p-2'  src={disk} alt="" />
+                                <img className='size-14 border-2 rounded-full border-gray-700 p-2'  src={disk} alt="" />
                                 <img className='size-14 border-2 rounded-full border-gray-700 p-2'  src={chrome_cast} alt="" />
                                 <img className='size-14 border-2 rounded-full border-gray-700 p-2'  src={slider} alt="" />
                             </div>
