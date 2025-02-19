@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+/* *{
+  border:2px solid red
+} */
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+
+}
+
+@layer base {
+  li {
+    font-family: var(--font-code);
+    cursor: pointer;
+    list-style: none;
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 12, 21);
+    color: lightgray;
+  }
+
+  h1 {
+    font-family: var(--font-sora);
+  }
+
+  p {
+    font-family: var(--font-grotesk);
+  }
+
+  li:hover {
+    color: white;
+    transition: all .7s;
+
+  }
+
+  button {
+    font-family: var(--font-grotesk);
+    font-weight: 800;
+  }
+
+
+}
+
+
+
+
+@layer utilities {
+  .border_lineargradient {
+    background: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    animation: button_gradient 2s linear infinite;
+    background-size: 200%;
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    padding: 2px;
+
+  }
+
+
+
+
+  .animate_box {
+    animation: box .9s;
+    animation-timeline: view();
+    transition: all 10s;
+  }
+
+  .plus_icon::before {
+    content: "+";
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    font-weight: 700;
+    font-size: x-large;
+  }
+
+  .plus_icon::after {
+    content: "+";
+    position: absolute;
+    font-weight: 700;
+    font-size: x-large;
+    right: 0px;
+    top: -18px;
+  }
+
+  .button_curve {
+    position: relative;
+    padding-right: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #3acfd5 10%, rgb(145, 60, 182) 10%, #d23ad5 100%) 1;
+    clip-path: polygon(0 1%, 80% 0%, 100% 20%, 100% 80%, 100% 99%, 20% 100%, 0 100%, 0% 20%);
+
+  }
+
+
+  .glow_bg:after {
+    background-image: url(./assets/services//service-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    scale: 1.7;
+    z-index: -1;
+    opacity: 0;
+    transition: all .5s;
+    transform: scaleX(-1);
+  }
+
+
+
+}
+
+
+
+@keyframes box {
+  50% {
+    transform: translateY(-180px);
+  }
+
+  100% {
+    transform: translateY(-400px);
+
+  }
+}
+
+@keyframes button_gradient {
+    to{
+      background-position: 200%;
+    }
+}
