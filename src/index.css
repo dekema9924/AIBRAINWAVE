@@ -67,6 +67,7 @@
   .animate_box {
     animation: box .9s;
     animation-timeline: view();
+    -webkit-animation: box .9s;
     transition: all 10s;
   }
 
