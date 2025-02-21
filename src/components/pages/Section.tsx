@@ -15,21 +15,21 @@ function Section() {
                 <div >
                     <h1 className='lg:text-[4em]  text-[2em]  max-w-[800px] m-auto  lg:text-center my-7'>Chat Smarter, Not Harder with Brainwave</h1>
                     <div className='glow grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 lg:w-full gap-4'>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
                             <SectionProps
                                 img={plug1}
                                 title='Ask anything'
                                 text="Let's users quickly find answers to their questions without having to search through multiple sources"
                             />
                         </div>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
                             <SectionProps
                                 img={plug2}
                                 title='Ask anything'
                                 text="Let's users quickly find answers to their questions without having to search through multiple sources"
                             />
                         </div>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
 
                             <SectionProps
                                 img={plug3}
@@ -37,7 +37,7 @@ function Section() {
                                 text="Let's users quickly find answers to their questions without having to search through multiple sources"
                             />
                         </div>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
 
                             <SectionProps
                                 img={plug4}
@@ -45,7 +45,7 @@ function Section() {
                                 text="Let's users quickly find answers to their questions without having to search through multiple sources"
                             />
                         </div>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
 
                             <SectionProps
                                 img={plug1}
@@ -53,7 +53,7 @@ function Section() {
                                 text="Let's users quickly find answers to their questions without having to search through multiple sources"
                             />
                         </div>
-                        <div className=' glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
+                        <div className='ease_animation glow_bg md:col-span-3 md:w-full lg:w-fit lg:col-span-1  overflow-hidden hover:after:opacity-55 relative after:content-[""] after:top-0  after:h-full after:bg-center after:w-80  after:absolute'>
 
                             <SectionProps
                                 img={plug2}
